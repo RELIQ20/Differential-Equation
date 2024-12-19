@@ -1,7 +1,6 @@
 import './Header.css';
-import letterN from '../../assets/letter-n.png';
-import infoButton from '../../assets/information-button.png';
-
+import letterN from '../assets/letterN.png';
+import infoButton from '../assets/infoButton.png';
 function Header() {
     return (
         <>
