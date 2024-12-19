@@ -1,0 +1,63 @@
+.definition-container{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30em;
+  padding: 1em;
+  height: fit-content;
+}
+
+.title-description{
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-family: castellar;
+    font-size: xx-large;
+    text-shadow: 1px 1px 1px grey;
+}
+ .Top p{
+    text-indent: 2em;
+    text-align: justify;
+    padding: 0.5em;
+    margin: 0.5em;
+    
+}
+
+.formula{
+    font-size: x-large;
+    font-style: italic;
+}
+
+.where{
+    text-indent: 2em;
+    font-style: italic;
+    font-weight: bold;
+    color: hsl(0, 0%, 18%);
+}
+.identify{
+    margin-left:  3em;
+    margin-bottom: 0.5em;
+}
+
+p2{
+    justify-content: center;
+    padding-left: 1em;
+    display: inline-block;
+}
+
+.formula{
+    text-align: center;
+}
+
+.Bottom{
+    display: flex;
+}
+.vidcontainer{
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 1em;
+
+}
+iframe{
+    margin: auto;
+    width: fit-content;
+}
