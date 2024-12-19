@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
-import letterN from '../src/assets/letter-n.png';
-import infoButton from '../src/assets/information-button.png';
+import letterN from './src/assets/letter-n.png';
+import infoButton from './src/assets/information-button.png';
 
 function Header() {
     return (
