@@ -1,6 +1,8 @@
+import React from 'react';
 import './Header.css';
-import letterN from '../src/assets/letterN.png';
-import infoButton from '../src/assets/infoButton.png';
+import letterN from '../../assets/letter-n.png';
+import infoButton from '../../assets/information-button.png';
+
 function Header() {
     return (
         <>
