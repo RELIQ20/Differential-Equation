@@ -126,8 +126,6 @@ function Calculator(){
         </div>
 
         <div className="Solution">
-    
-            {/* {solution part} */}
             <p>
 
                 <h1>Solution</h1>

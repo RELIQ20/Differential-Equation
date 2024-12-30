@@ -4,12 +4,9 @@ function Footer(){
     return(
             <>
             <p className='Footer'>
-                 &copy; Nathaniel D. Lawas<br/>
-                Submitted to Engr. Ramel H. Sigue<br/>
-                EMATH-213 "Differential Equations"<br/>
-                All Rights Reserved.
+                <b>Copyright &copy; 2024 Nathaniel D. Lawas. <i>All Rights Reserved.</i></b><br/>
+                <b>Submitted to:</b> Engr. Ramel H. Sigue | <b>Course:</b> EMATH-213 "Differential Equations"
             </p>
-            
             </>
     );
 }

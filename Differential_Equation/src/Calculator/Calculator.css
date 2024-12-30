@@ -1,11 +1,11 @@
-.calculator-container-overall{
+.calculator-container-overall {
     border: 1px hidden black;
     display: flow-root;
     float: inline-start;
-    
 }
 
-.calculator-container{
+.calculator-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
@@ -13,37 +13,48 @@
     width: 20em;
     margin-bottom: 0.5em;
     height: fit-content;
+    background-color: #e6f7f7; /* Updated background color */
 }
-h1{
+
+.calculator-container h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-} /* Header*/
+    background-color: #e6f7f7; /* Ensures consistent background */
+}
 
-select{
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+select {
     border-radius: 20px;
     box-shadow: 2px 2px 2px black;
     text-align: left;
     padding: 0em 1em;
-    
-}/* Dropdown Selection*/
+    background-color: #d8f5e2;
+}
 
-input{
+input {
     width: 100px;
     margin: 5px;
     text-align: center;
     border-radius: 5px;
     border: 2px double grey;
+    background-color: #fffbe6;
 }
-/* text besides the input element*/
-label{
+
+label {
     font-weight: bold;
+    background-color: #e6f7f7; /* Ensures label background matches */
 }
-label sub{
+
+label sub {
     font-size: 12px;
     color: grey;
-
+    background-color: #e6f7f7;
 }
-button{
+
+button {
     width: 100px;
     height: 1.5em;
     margin: 5px;
@@ -53,28 +64,31 @@ button{
     background-color: hsla(212, 98%, 64%, 0.788);
     transition: all 0.3s ease-in-out;
 }
-button:hover{
+
+button:hover {
     background-color: hsla(212, 100%, 50%, 0.788);
 }
 
-.Solution{
+.Solution {
     border: 1px solid black;
     border-radius: 20px;
     display: inline-block;
     padding: 1em 0.5em;
     width: 20em;
     min-height: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f3f0ff;
 }
-
-h3,.given{
+.calculator-container h3{
     text-align: left;
 }
-
+h3,.given {
+    text-align: left;
+}
 .Solution-given {
     padding: 10px;
     flex-direction: column; /* Stacks rows vertically */
     gap: 10px; /* Adds space between rows */
-    
 }
 
 .row {
@@ -83,12 +97,15 @@ h3,.given{
     align-items: center; /* Aligns items vertically */
 }
 
-.one, .two {
+.one,.two {
     flex: 1; /* Ensures equal spacing between the two columns */
 }
-.answers{
+
+.answers {
     text-indent: 2em;
     color: red;
-    display: block;
+    display: block; 
 }
-
+.Solution *{
+    background-color: #f3f0ff;
+}

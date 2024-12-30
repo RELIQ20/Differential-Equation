@@ -1,13 +1,15 @@
 import Header from "./Header/Header.jsx";
-import Calculator from "./Calculator/Calculator.jsx";
+import Title from "./Title/Title.jsx";
 import Definition from "./Definition/Definition.jsx";
-import Footer from "./Footer/Footer.jsx";
+import Calculator from "./Calculator/Calculator.jsx";
 import Calculator1 from "./Calculator1/Calculator1.jsx";
+import Footer from "./Footer/Footer.jsx";
+
 function App() {
   return (
     <>
       <Header/>
-      
+      <Title/>
         <div className="GeneralContainer">
        
             <Definition 

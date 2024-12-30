@@ -2,6 +2,9 @@
     display: flow-root;
     float: inline-start;
 }
+.calculator {
+    background-color: #e6f7f7;
+}
 .calculator, .Solution1-container {
     border: 1px solid black;
     border-radius: 20px;
@@ -10,6 +13,8 @@
     width: 20em;
     margin-bottom: 0.5em;
     height: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 .Solution1-container{
     padding: 1em 0.5em;
@@ -19,9 +24,14 @@
     padding: 1em 0.5em;
     width: 20em;
     height: 35rem;
+    background-color: #f3f0ff;
+}
+.Solution1-container *{
+    background-color: #f3f0ff;
 }
 label {
     font-weight: bold;
+    background-color: #e6f7f7;
 }
 input{
     width: 100px;
@@ -66,4 +76,12 @@ button:hover{
 
 }
 
-
+.calculator h1{
+    background-color: #e6f7f7;
+}
+.input-container{
+    background-color: #e6f7f7;
+}
+.buttons{
+    background-color: #e6f7f7;
+}

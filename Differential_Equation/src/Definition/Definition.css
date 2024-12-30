@@ -1,63 +1,70 @@
-.definition-container{
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 30em;
-  padding: 1em;
-  height: fit-content;
-}
-
-.title-description{
+.definition-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30em;
+    padding: 1em;
+    height: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #eaf3fc;
+  }
+  
+  .definition-container * {
+    background-color: #eaf3fc; /* Ensure all child elements have the same background */
+    color: #000; /* Inherit a consistent text color */
+  }
+  
+  .title-description {
     margin-bottom: 0.5em;
     text-align: center;
     font-family: castellar;
     font-size: xx-large;
     text-shadow: 1px 1px 1px grey;
-}
- .Top p{
+  }
+  
+  .Top p {
     text-indent: 2em;
     text-align: justify;
     padding: 0.5em;
     margin: 0.5em;
-    
-}
-
-.formula{
+  }
+  
+  .formula {
     font-size: x-large;
     font-style: italic;
-}
-
-.where{
+    text-align: center;
+  }
+  
+  .where {
     text-indent: 2em;
     font-style: italic;
     font-weight: bold;
     color: hsl(0, 0%, 18%);
-}
-.identify{
-    margin-left:  3em;
+  }
+  
+  .identify {
+    margin-left: 3em;
     margin-bottom: 0.5em;
-}
-
-p2{
+  }
+  
+  p2 {
     justify-content: center;
     padding-left: 1em;
     display: inline-block;
-}
-
-.formula{
-    text-align: center;
-}
-
-.Bottom{
+  }
+  
+  .Bottom {
     display: flex;
-}
-.vidcontainer{
+  }
+  
+  .vidcontainer {
     align-items: center;
     display: flex;
     text-align: center;
     padding: 1em;
-
-}
-iframe{
+  }
+  
+  iframe {
     margin: auto;
     width: fit-content;
-}
+  }
+  
