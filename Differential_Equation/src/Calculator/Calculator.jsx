@@ -91,7 +91,7 @@ function Calculator(){
             <h1>Calculator</h1>
 
             <select value={mode} onChange={changeMode}>
-                <option value="Population">Popluation</option>
+                <option value="Population">Population</option>
                 <option value="Time">Time</option>
             </select>
     <br/>
